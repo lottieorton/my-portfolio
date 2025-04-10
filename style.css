@@ -135,16 +135,16 @@ h3:hover {
 
 .projects .dropdown-content {
     display: none;
+    padding-top: 10px;
 }
 
 .projects .project-info {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 10px;  
 }
 
 .projects .project-link {
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 30px;
 }
 
@@ -161,4 +161,27 @@ h3:hover {
 .skills img {
     max-height: 40px;
     width: auto;
+}
+
+
+/* Contact Me */
+
+.contact-me {
+    padding: 5%;
+}
+
+.contact-me p {
+    padding-bottom: 0.75rem;
+}
+
+.contact-me-icons {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.contact-me img {
+    max-height: 40px;
+    width: auto;
+    margin: 0 10px;
 }
